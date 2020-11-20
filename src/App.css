@@ -1,0 +1,95 @@
+.navBar {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 5em 0;
+}
+ul {
+  margin-right: 20%;
+}
+
+li {
+  display: inline;
+  margin-right: 20%;
+  font-size: 1.2em;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Mouse Memoirs", sans-serif;
+  transition: 1s;
+  background-color: black;
+}
+
+#header {
+  font-family: "Mouse Memoirs", sans-serif;
+  color: wheat;
+  margin-right: 10%;
+  font-size: 2em;
+}
+
+::placeholder {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 30px;
+}
+
+section {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+p {
+  font-size: 2em;
+  border: solid 3px red;
+
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
+  width: 100%;
+}
+
+#dateInput {
+  font-size: 2em;
+  font-family: "Mouse Memoirs", sans-serif;
+  border: solid 3px red;
+  margin: auto;
+  border-radius: 0.3em;
+  padding: 0 10px 0 10px;
+  width: 100%;
+  color: dimgray;
+  text-align: center;
+  height: 1.8em;
+}
+
+#submit-button {
+  margin: 20px 0;
+  font-size: 2em;
+  padding: 0.2em;
+  font-family: "Mouse Memoirs", sans-serif;
+}
+
+.date {
+  background-color: cornsilk;
+}
+
+.superstar {
+  background-color: mistyrose;
+  font-size: 2em;
+  font-family: "Mouse Memoirs", sans-serif;
+  border: solid 3px red;
+  margin: auto;
+  border-radius: 5px;
+  padding: 10px 10px 0 10px;
+  width: 100%;
+  color: dimgray;
+  text-align: center;
+  height: 1.8em;
+}
