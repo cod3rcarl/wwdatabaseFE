@@ -10,28 +10,21 @@ const Navbar = () => {
           <h1 id="header">wwdatabase.com</h1>
 
           <div className="navLinks">
-            <ul>
-              <li>
-                <Link className="navLink" to="/">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link className="navLink" to="/WWE">
-                  WWE
-                </Link>
-              </li>
-              <li>
-                <Link className="navLink" to="/AEW">
-                  AEW
-                </Link>
-              </li>
-              <li>
-                <Link className="navLink" to="/WCW">
-                  WCW
-                </Link>
-              </li>
-            </ul>
+            <Link className="navLink" to="/">
+              Home
+            </Link>
+
+            <Link className="navLink" to="/WWE">
+              WWE
+            </Link>
+
+            <Link className="navLink" to="/AEW">
+              AEW
+            </Link>
+
+            <Link className="navLink" to="/WCW">
+              WCW
+            </Link>
           </div>
         </nav>
 

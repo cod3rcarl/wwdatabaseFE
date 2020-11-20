@@ -1,24 +1,23 @@
 .navBar {
   background-color: black;
-  height: 80px;
+  height: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 0 5em 0;
-}
-ul {
-  margin-right: 20%;
-}
-
-li {
-  display: inline;
-  margin-right: 20%;
-  font-size: 1.2em;
+  margin: 0 0 6em 0;
 }
 
 .navLink {
   text-decoration: none;
   color: white;
+  display: inline;
+  margin-right: 20%;
+  font-size: 1.2em;
+}
+.myPic {
+  width: 20em;
+  margin-bottom: 5%;
 }
 
 body {
@@ -38,46 +37,38 @@ body {
 
 ::placeholder {
   font-family: "Mouse Memoirs", sans-serif;
-  font-size: 30px;
+  font-size: 2em;
 }
 
 section {
-  margin: auto;
-  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   text-align: center;
 }
-
-p {
-  font-size: 2em;
-  border: solid 3px red;
-
-  border-radius: 5px;
-  padding: 0 10px 0 10px;
-  width: 100%;
-}
-
-#dateInput {
-  font-size: 2em;
-  font-family: "Mouse Memoirs", sans-serif;
-  border: solid 3px red;
-  margin: auto;
-  border-radius: 0.3em;
-  padding: 0 10px 0 10px;
-  width: 100%;
-  color: dimgray;
-  text-align: center;
-  height: 1.8em;
+.container {
+  margin: 5px;
 }
 
 #submit-button {
-  margin: 20px 0;
+  margin: auto;
   font-size: 2em;
-  padding: 0.2em;
+  padding: 10px;
   font-family: "Mouse Memoirs", sans-serif;
+  width: 50%;
 }
 
 .date {
   background-color: cornsilk;
+  font-size: 1rem;
+  font-family: "Mouse Memoirs", sans-serif;
+  border: solid 3px red;
+  margin: auto;
+  border-radius: 5px;
+  padding: 25px 10px 20px 10px;
+  width: 50%;
+  color: dimgray;
+  text-align: center;
 }
 
 .superstar {
@@ -88,7 +79,7 @@ p {
   margin: auto;
   border-radius: 5px;
   padding: 10px 10px 0 10px;
-  width: 100%;
+  width: 50%;
   color: dimgray;
   text-align: center;
   height: 1.8em;

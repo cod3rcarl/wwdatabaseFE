@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import pic from "../images/New_WWE_World_Heavyweight_Title.png";
+
 // const url =
 //   process.env.REACT_APP_BACKEND_URL ||
 //   `https://wwdatabase.herokuapp.com/wrestlers`;
@@ -34,24 +36,37 @@ const WWE = () => {
 
   return (
     <section>
-      <input
-        onChange={(e) => setDate(e.target.value)}
-        id="dateInput"
-        type="text"
-        className="date"
-        placeholder="Enter Date DD/MM/YYYY"
-      ></input>
-      <p placeholder="Wrestler will appear here" className="superstar">
-        {wrestler}
-      </p>
-      <button
-        onClick={handleClick}
-        type="button"
-        id="submit-button"
-        className="btn btn-secondary btn-lg btn-block"
-      >
-        Who was WWE Champion?
-      </button>
+      <div className="container">
+        {" "}
+        <img className="myPic" src={pic} alt="WWE" />
+      </div>
+      <div className="container">
+        {" "}
+        <input
+          onChange={(e) => setDate(e.target.value)}
+          id="dateInput"
+          type="text"
+          className="date"
+          placeholder="Enter Date DD/MM/YYYY"
+        ></input>
+      </div>
+      <div className="container">
+        {" "}
+        <p placeholder="Wrestler will appear here" className="superstar">
+          {wrestler}
+        </p>
+      </div>
+      <div className="container">
+        {" "}
+        <button
+          onClick={handleClick}
+          type="button"
+          id="submit-button"
+          className="btn btn-secondary btn-lg btn-block"
+        >
+          Who was Champion?
+        </button>
+      </div>
     </section>
   );
 };
