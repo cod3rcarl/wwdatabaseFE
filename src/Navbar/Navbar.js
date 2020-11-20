@@ -15,15 +15,15 @@ const Navbar = () => {
             </Link>
 
             <Link className="navLink" to="/WWE">
-              WWE
+              WWE Title
             </Link>
 
             <Link className="navLink" to="/AEW">
-              AEW
+              WWE Womans Title
             </Link>
 
             <Link className="navLink" to="/WCW">
-              WCW
+              WWE Tag Team Titles
             </Link>
           </div>
         </nav>

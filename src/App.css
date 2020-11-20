@@ -1,18 +1,19 @@
 .navBar {
   background-color: black;
-  height: 0;
+
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 0 6em 0;
+  margin: 0 0 1em 0;
 }
 
 .navLink {
   text-decoration: none;
   color: white;
   display: inline;
-  margin-right: 20%;
+  margin: 10px;
   font-size: 1.2em;
 }
 .myPic {
@@ -31,13 +32,12 @@ body {
 #header {
   font-family: "Mouse Memoirs", sans-serif;
   color: wheat;
-  margin-right: 10%;
-  font-size: 2em;
+  margin: auto;
+  font-size: 4em;
 }
 
 ::placeholder {
   font-family: "Mouse Memoirs", sans-serif;
-  font-size: 2em;
 }
 
 section {
@@ -52,7 +52,7 @@ section {
 
 #submit-button {
   margin: auto;
-  font-size: 2em;
+  font-size: 125%;
   padding: 10px;
   font-family: "Mouse Memoirs", sans-serif;
   width: 50%;
@@ -60,12 +60,12 @@ section {
 
 .date {
   background-color: cornsilk;
-  font-size: 1rem;
+  font-size: 200%;
   font-family: "Mouse Memoirs", sans-serif;
   border: solid 3px red;
   margin: auto;
   border-radius: 5px;
-  padding: 25px 10px 20px 10px;
+  padding: 10px 10px 10px 10px;
   width: 50%;
   color: dimgray;
   text-align: center;
@@ -73,7 +73,7 @@ section {
 
 .superstar {
   background-color: mistyrose;
-  font-size: 2em;
+  font-size: 175%;
   font-family: "Mouse Memoirs", sans-serif;
   border: solid 3px red;
   margin: auto;
@@ -83,4 +83,11 @@ section {
   color: dimgray;
   text-align: center;
   height: 1.8em;
+}
+
+@media (max-width: 800px) {
+  .flex-item-right,
+  .flex-item-left {
+    flex: 100%;
+  }
 }
