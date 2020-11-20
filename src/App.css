@@ -90,11 +90,16 @@ section {
 }
 
 @media (max-width: 800px) {
-  .superstar,
+  .superstar {
+    font-size: 1.2em;
+    width: 50%;
+  }
   .date {
-    font-size: 1em;
+    font-size: 1.5em;
+    width: 50%;
   }
   #submit-button {
-    font-size: 0.5em;
+    font-size: 0.7em;
+    width: 50%;
   }
 }
