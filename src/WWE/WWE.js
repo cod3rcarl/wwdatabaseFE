@@ -5,7 +5,7 @@ import pic from "../images/New_WWE_World_Heavyweight_Title.png";
 //   process.env.REACT_APP_BACKEND_URL ||
 //   `https://wwdatabase.herokuapp.com/wrestlers`;
 const WWE = () => {
-  const [wrestler, setWrestler] = useState("Wrestler will appear here");
+  const [wrestler, setWrestler] = useState("Superstar appears here");
   const [date, setDate] = useState("");
 
   async function getWrestlerInfo() {
@@ -52,7 +52,7 @@ const WWE = () => {
       </div>
       <div className="container">
         {" "}
-        <p placeholder="Wrestler will appear here" className="superstar">
+        <p placeholder="Superstar appears here" className="superstar">
           {wrestler}
         </p>
       </div>

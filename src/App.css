@@ -38,6 +38,7 @@ body {
 
 ::placeholder {
   font-family: "Mouse Memoirs", sans-serif;
+  font-size: 70%;
 }
 
 section {
@@ -55,7 +56,7 @@ section {
   font-size: 125%;
   padding: 10px;
   font-family: "Mouse Memoirs", sans-serif;
-  width: 50%;
+  width: 35%;
 }
 
 .date {
@@ -66,20 +67,20 @@ section {
   margin: auto;
   border-radius: 5px;
   padding: 10px 10px 10px 10px;
-  width: 50%;
+  width: 35%;
   color: dimgray;
   text-align: center;
 }
 
 .superstar {
   background-color: mistyrose;
-  font-size: 175%;
+  font-size: 150%;
   font-family: "Mouse Memoirs", sans-serif;
   border: solid 3px red;
   margin: auto;
   border-radius: 5px;
   padding: 10px 10px 0 10px;
-  width: 50%;
+  width: 35%;
   color: dimgray;
   text-align: center;
   height: 1.8em;
