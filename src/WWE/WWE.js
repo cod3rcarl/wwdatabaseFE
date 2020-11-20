@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-const url =
-  process.env.REACT_APP_BACKEND_URL || `http://localhost:5000/wrestlers`;
+// const url =
+//   process.env.REACT_APP_BACKEND_URL ||
+//   `https://wwdatabase.herokuapp.com/wrestlers`;
 const WWE = () => {
   const [wrestler, setWrestler] = useState("Wrestler will appear here");
   const [date, setDate] = useState("");
 
   async function getWrestlerInfo() {
-    const res = await fetch(`${url}`);
+    const res = await fetch(`https://wwdatabase.herokuapp.com/wrestlers`);
     const data = await res.json();
     data.payload.forEach((item) => {
       const dateLost = item.datelost;
