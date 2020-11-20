@@ -11,18 +11,18 @@ const Navbar = () => {
 
           <div className="navLinks">
             <Link className="navLink" to="/">
-              Home
-            </Link>
-
-            <Link className="navLink" to="/WWE">
               WWE Title
             </Link>
 
-            <Link className="navLink" to="/AEW">
+            <Link className="navLink" to="/universal">
+              WWE Universal Title
+            </Link>
+
+            <Link className="navLink" to="/woman">
               WWE Womans Title
             </Link>
 
-            <Link className="navLink" to="/WCW">
+            <Link className="navLink" to="/tag">
               WWE Tag Team Titles
             </Link>
           </div>
@@ -31,31 +31,31 @@ const Navbar = () => {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/WWE">
-            <WWE />
+          <Route path="/woman">
+            <Woman />
           </Route>
-          <Route path="/AEW">
-            <AEW />
+          <Route path="/universal">
+            <Universal />
           </Route>
-          <Route path="/WCW">
-            <WCW />
+          <Route path="/tag">
+            <Tag />
           </Route>
           <Route path="/">
-            <Home />
+            <WWE />
           </Route>
         </Switch>
       </div>
     </Router>
   );
-  function Home() {
-    return <h2>Home</h2>;
-  }
 
-  function AEW() {
-    return <h2>AEW</h2>;
+  function Universal() {
+    return <h2 className="comingSoon">WWE Universal Title Coming Soon</h2>;
   }
-  function WCW() {
-    return <h2>WCW</h2>;
+  function Woman() {
+    return <h2 className="comingSoon">WWE Womans Title Coming Soon</h2>;
+  }
+  function Tag() {
+    return <h2 className="comingSoon">WWE Tag Team Titles Coming Soon</h2>;
   }
 };
 

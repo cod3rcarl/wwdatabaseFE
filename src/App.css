@@ -40,7 +40,10 @@ body {
   font-family: "Mouse Memoirs", sans-serif;
   font-size: 70%;
 }
-
+.comingSoon {
+  text-align: center;
+  color: wheat;
+}
 section {
   display: flex;
   flex-wrap: wrap;
