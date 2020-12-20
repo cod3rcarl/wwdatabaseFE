@@ -6,7 +6,7 @@ import pic from '../images/New_WWE_World_Heavyweight_Title.png';
 //   `https://wwdatabase.herokuapp.com/wrestlers`;
 const WWE = () => {
   const [wrestler, setWrestler] = useState('Superstar appears here');
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [date, setDate] = useState('');
 
   async function getWrestlerInfo() {
@@ -56,7 +56,7 @@ const WWE = () => {
       <div className="container">
         {' '}
         {isLoading ? (
-          <p placeholder=" ...Loading" className="superstar"></p>
+          <p placeholder=" ...Loading Superstar will appear here" className="superstar"></p>
         ) : (
           <p placeholder="Superstar appears here" className="superstar">
             {wrestler}
