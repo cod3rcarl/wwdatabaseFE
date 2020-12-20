@@ -56,7 +56,7 @@ const WWE = () => {
       <div className="container">
         {' '}
         {isLoading ? (
-          <p placeholder=" ...Loading Superstar will appear here" className="superstar"></p>
+          <p placeholder=" ...Loading Superstar will appear here" className="superstar">...Loading Superstar will appear here</p>
         ) : (
           <p placeholder="Superstar appears here" className="superstar">
             {wrestler}
