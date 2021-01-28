@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 import pic from "../images/New_WWE_World_Heavyweight_Title.png";
 
-// const url =
-//   process.env.REACT_APP_BACKEND_URL ||
-//   `https://wwdatabase.herokuapp.com/wrestlers`;
+const url =
+  process.env.REACT_APP_BACKEND_URL || `https://wwdatabase.herokuapp.com`;
 const WWE = () => {
   const [wrestler, setWrestler] = useState("Superstar appears here");
   const [isLoading, setIsLoading] = useState(true);
   const [date, setDate] = useState("");
-  const url = process.env.REACT_APP_BACKEND_URL;
 
   async function getWrestlerInfo() {
     const res = await fetch(`${url}/wrestlers`);
