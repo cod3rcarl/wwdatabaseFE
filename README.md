@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Getting Started:
 
 Clone the repo as instructed below
@@ -37,14 +36,3 @@ Type a date into the date field. The date is formatted as DD/MM/YYYY. The first 
 - CSS
 - JavaScript
 - React
-=======
-# WWDatabase
-
-Input put a date, find out who was WWE Champion on that day.
-
-## Database
-
-Database is run through Postgres and deployed on Heroku
-
-
->>>>>>> 641e762ec10fffe26ded2ff6f725889a2d186b0e
