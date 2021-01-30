@@ -40,6 +40,7 @@ const WWE = () => {
     } else {
       alert(" Invalid input! Please input date format as DD/MM/YYYY");
     }
+    setDate("");
   }
   return (
     <section>
