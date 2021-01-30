@@ -82,7 +82,7 @@ section {
   border: solid 3px red;
   margin: auto;
   border-radius: 5px;
-  padding: 10px 10px 0 10px;
+  padding: 10px 10px 10px 10px;
   width: 35%;
   color: dimgray;
   text-align: center;
@@ -91,7 +91,7 @@ section {
 
 @media (max-width: 800px) {
   .superstar {
-    font-size: 1em;
+    font-size: 0.8em;
     width: 50%;
   }
   .date {
