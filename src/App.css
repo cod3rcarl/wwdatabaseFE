@@ -91,7 +91,7 @@ section {
 
 @media (max-width: 800px) {
   .superstar {
-    font-size: 1.2em;
+    font-size: 1em;
     width: 50%;
   }
   .date {
@@ -99,7 +99,7 @@ section {
     width: 50%;
   }
   #submit-button {
-    font-size: 0.7em;
+    font-size: 1em;
     width: 50%;
   }
   .navLink {

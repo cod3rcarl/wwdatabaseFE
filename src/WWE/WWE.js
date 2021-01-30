@@ -9,7 +9,7 @@ const WWE = () => {
   const [date, setDate] = useState("");
 
   async function getWrestlerInfo() {
-    const res = await fetch(`${url}`);
+    const res = await fetch(`${url}wrestlers`);
     const data = await res.json();
     data.payload.forEach((item) => {
       const dateLost = item.datelost;
@@ -32,10 +32,15 @@ const WWE = () => {
     });
   }
   function handleClick() {
-    console.log(date);
-    getWrestlerInfo();
-  }
+    const myRegex = /^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$/;
 
+    if (date.match(myRegex)) {
+      console.log("success");
+      getWrestlerInfo();
+    } else {
+      alert(" Invalid input! Please input date format as DD/MM/YYYY");
+    }
+  }
   return (
     <section>
       <div className="container">
