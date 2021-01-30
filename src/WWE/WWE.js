@@ -8,7 +8,7 @@ const WWE = () => {
   const [date, setDate] = useState("");
 
   async function getWrestlerInfo() {
-    const res = await fetch(`${url}wrestlers`);
+    const res = await fetch(`${url}`);
     const data = await res.json();
 
     data.payload.filter((item) => {
