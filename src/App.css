@@ -24,20 +24,20 @@
 body {
   margin: 0;
   overflow-x: hidden;
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Mouse Memoirs', sans-serif;
   transition: 1s;
   background-color: black;
 }
 
 #header {
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Mouse Memoirs', sans-serif;
   color: wheat;
   margin: auto;
   font-size: 4em;
 }
 
 ::placeholder {
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Mouse Memoirs', sans-serif;
   font-size: 70%;
 }
 .comingSoon {
@@ -51,6 +51,7 @@ section {
   text-align: center;
 }
 .container {
+  color: white;
   margin: 5px;
 }
 
@@ -58,14 +59,14 @@ section {
   margin: auto;
   font-size: 2em;
   padding: 10px;
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Mouse Memoirs', sans-serif;
   width: 35%;
 }
 
 .date {
   background-color: cornsilk;
   font-size: 2em;
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Mouse Memoirs', sans-serif;
   border: solid 3px red;
   margin: auto;
   border-radius: 5px;
@@ -75,14 +76,14 @@ section {
   text-align: center;
 }
 
-.superstar {
+.search {
   background-color: mistyrose;
-  font-size: 150%;
-  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 2em;
+  font-family: 'Mouse Memoirs', sans-serif;
   border: solid 3px red;
   margin: auto;
   border-radius: 5px;
-  padding: 10px 10px 10px 10px;
+  padding: 5px 5px 5px 5px;
   width: 35%;
   color: dimgray;
   text-align: center;
